@@ -252,9 +252,6 @@
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsLeft": [
         ${"def.topTankers"},
-        ${"def.hpBarBg"},
-        ${"def.hpBar"},
-        ${"def.hp"},
         ${"def.clanIcon"},
         ${"def.xvmUserMarker"},
         ${"def.xmqpServiceMarker"}
@@ -263,9 +260,6 @@
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
         ${"def.topTankers"},
-        ${"def.hpBarBg"},
-        ${"def.hpBar"},
-        ${"def.hp"},
         ${"def.clanIcon"},
         ${"def.xvmUserMarker"},
         ${"def.enemySpottedMarker"}
@@ -357,9 +351,6 @@
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsLeft": [
-        ${"def.hpBarBg"},
-        ${"def.hpBar"},
-        ${"def.hp"},
         ${"def.clanIcon"},
         ${"def.xvmUserMarker"},
         ${"def.xmqpServiceMarker"},
@@ -368,9 +359,6 @@
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
-        ${"def.hpBarBg"},
-        ${"def.hpBar"},
-        ${"def.hp"},
         ${"def.clanIcon"},
         ${"def.xvmUserMarker"},
         ${"def.enemySpottedMarker"},
@@ -463,9 +451,6 @@
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsLeft": [
-        ${"def.hpBarBg"},
-        ${"def.hpBar"},
-        ${"def.hp"},
         ${"def.clanIcon"},
         ${"def.xvmUserMarker"},
         ${"def.xmqpServiceMarker"},
@@ -474,9 +459,6 @@
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
-        ${"def.hpBarBg"},
-        ${"def.hpBar"},
-        ${"def.hp"},
         ${"def.clanIcon"},
         ${"def.xvmUserMarker"},
         ${"def.enemySpottedMarker"},
@@ -566,9 +548,6 @@
       // Set of formats for left panel (extended format supported, see above)
       // Набор форматов для левой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsLeft": [
-        ${"def.hpBarBg"},
-        ${"def.hpBar"},
-        ${"def.hp"},
         ${"def.clanIcon"},
         ${"def.xvmUserMarker"},
         ${"def.xmqpServiceMarker"},
@@ -577,9 +556,6 @@
       // Set of formats for right panel (extended format supported, see above)
       // Набор форматов для правой панели (поддерживается расширенный формат, см. выше)
       "extraFieldsRight": [
-        ${"def.hpBarBg"},
-        ${"def.hpBar"},
-        ${"def.hp"},
         ${"def.clanIcon"},
         ${"def.xvmUserMarker"},
         ${"def.enemySpottedMarker"},

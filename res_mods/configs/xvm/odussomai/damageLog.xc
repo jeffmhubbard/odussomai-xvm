@@ -200,7 +200,7 @@
       },
       // true - show hits without damage, false - not to show.
       // true - отображать попадания без урона, false - не отображать.
-      "showHitNoDamage": true,
+      "showHitNoDamage": false,
       // true - to summarize the damage from the fire.
       // true - суммировать повреждения от пожара.
       "groupDamagesFromFire": true,
@@ -241,7 +241,7 @@
       "$ref": { "path":"damageLog.log" },
       // true - show hits without damage, false - not to show.
       // true - отображать попадания без урона, false - не отображать.
-      "showHitNoDamage": true,
+      "showHitNoDamage": false,
       // Damage log format.
       // Формат лога повреждений.
       "formatHistory": "<textformat tabstops='[30,135,170]'><font face='mono' size='12'>{{number%3d~.}}</font><tab><font color='{{c:dmg-kind}}'>{{hit-effects}}{{critical-hit}}{{splash-hit}}<tab>{{dmg-kind}}</font><tab><font color='{{c:team-dmg}}'>{{name}}</font></textformat>"
@@ -266,7 +266,7 @@
       "y": 200,
       // true - show hits without damage, false - not to show.
       // true - отображать попадания без урона, false - не отображать.
-      "showHitNoDamage": true,
+      "showHitNoDamage": false,
       // Display duration (seconds).
       // Продолжительность отображения (секунды).
       "timeDisplayLastHit": 7,

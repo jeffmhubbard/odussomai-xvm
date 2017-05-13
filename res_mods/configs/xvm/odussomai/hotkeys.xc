@@ -23,7 +23,7 @@
     "markersAltMode":      { "enabled": true, "onHold": true },
     // Damage log alternative mode.
     // Альтернативный режим лога полученного урона.
-    "damageLogAltMode":    { "enabled": true, "keyCode": 56, "onHold": true }
+    "damageLogAltMode":    { "enabled": false, "keyCode": 56, "onHold": true }
   }
 }
 

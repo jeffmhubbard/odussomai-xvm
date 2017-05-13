@@ -33,7 +33,7 @@
     // Total hp indicator.
     // Индикатор общего HP команд.
     "totalHP": {
-      "enabled": true,
+      "enabled": false,
       "updateEvent": "PY(ON_UPDATE_HP)",
       "x": 0,
       "y": 30,
@@ -46,7 +46,7 @@
     // Avg damage on current vehicle.
     // Средний урон на текущей технике.
     "avgDamage": {
-      "enabled": true,
+      "enabled": false,
       "updateEvent": "PY(ON_UPDATE_HP)",
       "x": -170,
       "y": 30,
@@ -59,7 +59,7 @@
     // Threshold necessary for achievements "High caliber".
     // Порог необходимый для получения достижения "Основной калибр".
     "mainGun": {
-      "enabled": true,
+      "enabled": false,
       "updateEvent": "PY(ON_UPDATE_HP)",
       "x": 170,
       "y": 30,
@@ -120,7 +120,7 @@
     // Display the last damage (hit) (see damageLog.xc).
     // Отображение последнего урона (попадания) (см. damageLog.xc).
     "lastHit": {
-      "enabled": true,
+      "enabled": false,
       "updateEvent": "PY(ON_LAST_HIT)",
       "x": "{{py:xvm.damageLog.lastHit_x}}",
       "y": "{{py:xvm.damageLog.lastHit_y}}",
@@ -165,7 +165,7 @@
       "format": "ПОЖАР"
     },
     "totalEfficiency": {
-      "enabled": true,
+      "enabled": false,
       "updateEvent": "PY(ON_TOTAL_EFFICIENCY), ON_PANEL_MODE_CHANGED",
       "x": "{{pp.mode=0?5|{{py:math.sum({{pp.widthLeft}},50)}}}}",
       "y": "{{pp.mode=0?65|35}}",
