@@ -93,10 +93,10 @@
     "iconAlpha": 100,
     // true - disable background of the selected player.
     // true - убрать подложку выбранного игрока.
-    "removeSelectedBackground": false,
+    "removeSelectedBackground": true,
     // true - Remove the Players Panel mode switcher (buttons for changing size).
     // true - убрать переключатель режимов ушей мышкой.
-    "removePanelsModeSwitcher": false,
+    "removePanelsModeSwitcher": true,
     // Start panels mode. Possible values: "none", "short", "medium", "medium2", "large".
     // Начальный режим ушей. Возможные значения: "none", "short", "medium", "medium2", "large".
     "startMode": "large",
@@ -374,7 +374,7 @@
       // Available names: "frags", "vehicle", "nick".
       // Отображаемые стандартные поля в данном режиме, и их порядок.
       // Допустимые названия: "frags", "vehicle", "nick".
-      "standardFields": [ "frags", "vehicle" ],
+      "standardFields": [ "frags", "nick" ],
       // Width of area for switching to "large" mode on mouse over
       // Ширина области переключения в режим "large" при наведении мыши
       "expandAreaWidth": 230,
@@ -474,7 +474,7 @@
       // Available names: "frags", "vehicle", "nick".
       // Отображаемые стандартные поля в данном режиме, и их порядок.
       // Допустимые названия: "frags", "vehicle", "nick".
-      "standardFields": [ "frags", "nick", "vehicle" ],
+      "standardFields": [ "frags", "nick" ],
       // true - disable platoon icons
       // true - убрать отображение иконок взвода
       "removeSquadIcon": false,

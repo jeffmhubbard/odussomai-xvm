@@ -27,7 +27,7 @@
     "removeVehicleLevel": true,
     // true - disable vehicle type icon. This space will be used for formatted vehicle field.
     // true - убрать отображение типа танка. Пустое место будет использовано под форматируемое поле.
-    "removeVehicleTypeIcon": false,
+    "removeVehicleTypeIcon": true,
     // true - disable player status icon.
     // true - убрать отображение иконки статуса игрока.
     "removePlayerStatusIcon": false,
