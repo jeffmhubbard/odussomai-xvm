@@ -19,7 +19,7 @@
     "clockFormat": "H:i:s",
     // true - enable display of battle tier.
     // true - включить отображение уровня боя.
-    "showBattleTier": false,
+    "showBattleTier": true,
     // true - disable Platoon icons. This blank space can house, for example, clan logos.
     // true - убрать отображение иконки взвода. На пустое поле можно вывести, например, иконку клана.
     "removeSquadIcon": false,
@@ -85,10 +85,10 @@
     "formatRightNick": "<font alpha='#A0'>{{clan}}</font> {{name%.15s~..}} <img src='xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png'> <img src='xvm://res/icons/flags/{{flag|default}}.png' width='16' height='13' vspace='-2'>",
     // Display format for the left panel (macros allowed, see macros.txt).
     // Формат отображения для левой панели (допускаются макроподстановки, см. macros.txt).
-    "formatLeftVehicle": "<font face='mono' size='{{xvm-stat?13|0}}'> <font color='{{c:r}}'>{{r}}</font></font>",
+    "formatLeftVehicle": "<font face='Arial' size='{{xvm-stat?13|0}}'> <font color='{{c:r}}'>{{r}}</font></font>",
     // Display format for the right panel (macros allowed, see macros.txt).
     // Формат отображения для правой панели (допускаются макроподстановки, см. macros.txt).
-    "formatRightVehicle": "<font face='mono' size='{{xvm-stat?13|0}}'><font color='{{c:r}}'>{{r}}</font> </font>",
+    "formatRightVehicle": "<font face='Arial' size='{{xvm-stat?13|0}}'><font color='{{c:r}}'>{{r}}</font> </font>",
     // Extra fields. Fields are placed one above the other.
     // Дополнительные поля. Поля располагаются друг над другом.
     // Set of formats for left panel (extended format supported, see extra-field.txt)

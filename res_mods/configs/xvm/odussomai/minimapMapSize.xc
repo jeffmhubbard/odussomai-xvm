@@ -11,8 +11,8 @@
     "y": 0,
     "alpha": 70,
     "textFormat": {
-      "font": "Trebuchet MS",
-      "size": 10,
+      "font": "Arial",
+      "size": 8,
       "color": "0xEEEEEC",
       "align": "left",
       "bold": true,
@@ -22,9 +22,9 @@
     "shadow": {
       "enabled": true,
       "color": "0x000000",
-      "alpha": 70,
+      "alpha": 80,
       "blur": 2,
-      "strength": 3,
+      "strength": 2,
       "distance": 0,
       "angle": 0
     }
