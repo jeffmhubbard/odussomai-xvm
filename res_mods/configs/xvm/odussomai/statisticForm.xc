@@ -33,13 +33,13 @@
     "removePlayerStatusIcon": false,
     // Show border for name field (useful for config tuning)
     // Показывать рамку для поля имени игрока (полезно для настройки конфига)
-    "nameFieldShowBorder": false,
+    "nameFieldShowBorder": true,
     // Show border for vehicle field (useful for config tuning)
     // Показывать рамку для поля имени танка (полезно для настройки конфига)
-    "vehicleFieldShowBorder": false,
+    "vehicleFieldShowBorder": true,
     // Show border for frags field (useful for config tuning)
     // Показывать рамку для поля фрагов (полезно для настройки конфига)
-    "fragsFieldShowBorder": false,
+    "fragsFieldShowBorder": true,
     // X offset for allies squad icons
     // Cмещение по оси X значка взвода союзников
     "squadIconOffsetXLeft": 0,

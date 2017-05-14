@@ -11,9 +11,9 @@
     "y": 0,
     "alpha": 70,
     "textFormat": {
-      "font": "Times New Roman",
+      "font": "Trebuchet MS",
       "size": 10,
-      "color": "0xFFCC66",
+      "color": "0xEEEEEC",
       "align": "left",
       "bold": true,
       "italic": false
