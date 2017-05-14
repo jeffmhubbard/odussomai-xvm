@@ -213,7 +213,7 @@
     // Контурная иконка танка.
     "contourIcon": {
       // false - disable / не отображать.
-      "enabled": false,
+      "enabled": true,
       // Axis field coordinates.
       // Положение поля по осям.
       "x": 6,
@@ -312,7 +312,7 @@
     // Vehicle contour icon.
     // Контурная иконка танка.
     "contourIcon": {
-      "enabled": false,
+      "enabled": true,
       "x": 6,
       "y": -65,
       "alpha": 100,
