@@ -11,16 +11,16 @@
      // "enabled": true - включен; "color" - цвет.
      // Own vehicle direction definition.
      // Шаблон направления корпуса своей техники.
-    "vehicle": { "enabled": true, "inmeters": true, "color": "0xeeeeec" },
+    "vehicle": { "enabled": true, "inmeters": true, "color": "0xEEEEEC" },
      // Camera direction definition.
      // Шаблон направления камеры от своей техники.
-    "camera": { "enabled": true, "inmeters": true, "color": "0x8ae234" },
+    "camera": { "enabled": true, "inmeters": true, "color": "0x8AE234" },
      // Dots definition.
      // Шаблон точек.
-    "dot": { "enabled": true, "inmeters": true, "color": "0x8ae234" },
+    "dot": { "enabled": true, "inmeters": true, "color": "0x8AE234" },
      // Horizontal gun traverse angle definition.
      // Шаблон угла горизонтальной наводки.
-    "traverseAngle": { "enabled": true, "inmeters": true, "color": "0xeeeeec" }
+    "traverseAngle": { "enabled": true, "inmeters": true, "color": "0xEEEEEC" }
   },
   "lines": {
        // Distance between farthest corners at 1km map is somewhat more than 1400 meters.
