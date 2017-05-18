@@ -7,40 +7,40 @@
   // Color values for substitutions.
   // Значения цветов для подстановок.
   "def": {
-    "al": "0x96FF00", // ally       / союзник
-    "sq": "0xFFB964", // squadman   / взводный
-    "tk": "0x00EAFF", // teamKiller / тимкиллер
-    "en": "0xF50800", // enemy      / противник
-    "pl": "0xFFDD33", // player     / игрок
+    "al": "0x8ae234", // ally       / союзник
+    "sq": "0xe9b96e", // squadman   / взводный
+    "tk": "0x63e9e9", // teamKiller / тимкиллер
+    "en": "0xef2929", // enemy      / противник
+    "pl": "0xfce94f", // player     / игрок
     // Dynamic color by various statistical parameters.
     // Динамический цвет по различным статистическим показателям.
     "colorRatingNew": {
-      "very_bad":			"0xBAAAAD",   // bad
-      "bad":			"0xf11919",   // bad
-      "below_average":	"0xff8a00",   // below average
-      "average":		"0xe6df27",   // average
-      "above_average":	"0x77e812",   // above average
-      "good":			"0x459300",    // good
-      "very_good":		"0x2ae4ff",    // very good
-      "great":			"0x00a0b8",    // great
-      "unicum":			"0xc64cff",    // unicum
-      "super_unicum":	"0x8225ad"    // super_unicum
+      "very_bad":       "0xcc0000",   // bad
+      "bad":            "0xef2929",   // bad
+      "below_average":  "0xfcaf3e",   // below average
+      "average":        "0xfce94f",   // average
+      "above_average":  "0x8ae234",   // above average
+      "good":           "0x459300",    // good
+      "very_good":      "0x73d216",    // very good
+      "great":          "0x729fcf",    // great
+      "unicum":         "0xad7fa8",    // unicum
+      "super_unicum":   "0x75507b"    // super_unicum
     },
     "colorRating": {
-      "very_bad":     "0xFE0E00",   // very bad   / очень плохо
-      "bad":          "0xFE7903",   // bad        / плохо
-      "normal":       "0xF8F400",   // normal     / средне
-      "good":         "0x60FF00",   // good       / хорошо
-      "very_good":    "0x02C9B3",   // very good  / очень хорошо
-      "unique":       "0xD042F3"    // unique     / уникально
+      "very_bad":       "0xef2929",   // very bad   / очень плохо
+      "bad":            "0xfcaf3e",   // bad        / плохо
+      "normal":         "0xfce94f",   // normal     / средне
+      "good":           "0x8ae234",   // good       / хорошо
+      "very_good":      "0x729fcf",   // very good  / очень хорошо
+      "unique":         "0xad7fa8"    // unique     / уникально
     },
     // Dynamic color by remaining health points.
     // Динамический цвет по оставшемуся запасу прочности.
     "colorHP": {
-      "very_low":         "0xFF0000",   // very low       / очень низкий
-      "low":              "0xDD4444",   // low            / низкий
-      "average":          "0xFFCC22",   // average        / средний
-      "above_average":    "0xFCFCFC"    // above-average  / выше среднего
+      "very_low":         "0xcc0000",   // very low       / очень низкий
+      "low":              "0xfcaf3e",   // low            / низкий
+      "average":          "0xfce94f",   // average        / средний
+      "above_average":    "0x8ae234"    // above-average  / выше среднего
     }
   },
   "colors": {
@@ -70,11 +70,11 @@
     // Dynamic color by damage kind.
     // Динамический цвет по типу урона.
     "dmg_kind": {
-      "attack": "0xFFAA55",          // attack / атака
-      "fire": "0xFF6655",            // fire / пожар
-      "ramming": "0x998855",         // ramming / таран
-      "world_collision": "0x228855", // world collision / столкновение с объектами, падение
-      "other": "0xCCCCCC"            // other / другое
+      "attack": "0xe9b96e",          // attack / атака
+      "fire": "0xef2929",            // fire / пожар
+      "ramming": "0xfcaf3e",         // ramming / таран
+      "world_collision": "0x8ae234", // world collision / столкновение с объектами, падение
+      "other": "0x888a85"            // other / другое
     },
     // Dynamic color by vehicle type.
     // Динамический цвет по типу техники.
@@ -82,15 +82,15 @@
       // Цвет для легких танков.
       "LT":  "0xA2FF9A",
       // Цвет для средних танков.
-      "MT":  "0xFFF198",
+      "MT":  "0x73d216",
       // Цвет для тяжелых танков.
-      "HT":  "0xFFACAC",
+      "HT":  "0x555753",
       // Цвет для арты.
-      "SPG": "0xEFAEFF",
+      "SPG": "0xcc0000",
       // Цвет для ПТ.
-      "TD":  "0xA0CFFF",
+      "TD":  "0x3465a4",
       // Цвет для премиумной техники.
-      "premium": "0xFFCC66",
+      "premium": "0xedd400",
       // Включить/выключить использование премиумного цвета.
       "usePremiumColor": false
     },
@@ -244,7 +244,7 @@
 	  { "value": 2000, "color": ${"def.colorRatingNew.very_good"		} },
 	  { "value": 2450, "color": ${"def.colorRatingNew.great"			} },
 	  { "value": 2900, "color": ${"def.colorRatingNew.unicum"			} },
-	  { "value": 9999, "color": ${"def.colorRatingNew.super_unicum"		} } 
+	  { "value": 9999, "color": ${"def.colorRatingNew.super_unicum"		} }
     ],
     // Dynamic color by WG rating
     // Динамический цвет по рейтингу WG
@@ -280,8 +280,8 @@
 	  { "value": 56, "color": ${"def.colorRatingNew.very_good"		} },
 	  { "value": 60, "color": ${"def.colorRatingNew.great"			} },
 	  { "value": 65, "color": ${"def.colorRatingNew.unicum"			} },
-	  { "value": 101, "color": ${"def.colorRatingNew.super_unicum"	} } 
-	  
+	  { "value": 101, "color": ${"def.colorRatingNew.super_unicum"	} }
+
     ],
     // Dynamic color by kilo-battles
     // Динамический цвет по количеству кило-боев
