@@ -21,10 +21,10 @@
     "fontSize": 12,
     // name of the font in vehicle tooltips
     // название шрифта во всплывающих подсказках к танкам
-    "fontName": "$TextFont",
+    "fontName": "Tahoma",
     // color for premium shells etc. in vehicle tooltips
     // цвет премиумных снарядов и т.д. во всплывающих подсказках к танкам
-    "goldColor": "#FFC363",
+    "goldColor": "#fce94f",
 
     "lightTank":    [
                     "maxHealth",
@@ -192,7 +192,7 @@ List of possible values: (if the parameter is not relevant for some tank, it wil
 "gravity",                              - Гравитация \ Gravity
 "shellSpeedSummary",                    - Сводка скоростей снарядов \ Summary of shell speeds
 "radioRange",                           - Дальность связи \ Range of radio signal
-"rateOfFire",                           - Скорострельность оружия \ Rate of Fire 
+"rateOfFire",                           - Скорострельность оружия \ Rate of Fire
 "battleTiers",                          - Уровни боев танка \ Battle tiers of vehicle
 "maxHealth",                            - ХП танка \ HP of vehicle
 "invisibilityStillFactor"               - Незаметность неподвижной машины (%) \ Concealment of Stationary Vehicle (%)

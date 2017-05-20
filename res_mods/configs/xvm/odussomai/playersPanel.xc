@@ -7,16 +7,20 @@
       "y": -2,
       "align": "center",
       "bindToIcon": true,
-      "format": "<font color='{{c:spotted}}'>{{spotted}}</font>",
+      // "textFormat": {
+      //   "font": "xvm",
+      //   "size": 24
+      // },
+      "format": "<font face='xvm' size='18' color='{{c:spotted}}'>{{spotted}}</font>&nbsp;&nbsp;",
       "shadow": {}
     },
     "xmqpServiceMarker": {
       "x": 88, "y": -2, "align": "center", "bindToIcon": true,
-      "textFormat": {
-        "font": "xvm",
-        "size": 24
-      },
-      "format": "<font color='{{alive?{{x-spotted?#edd400|{{x-sense-on?#d3d7cf|#888a85}}}}|#eeeeec}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x45;|{{x-sense-on?&#x43;|{{x-enabled?&#x49;}}}}}}}}</font>",
+      // "textFormat": {
+      //   "font": "xvm",
+      //   "size": 24
+      // },
+      "format": "&nbsp;&nbsp;<font face='xvm' size='18' color='{{alive?{{x-spotted?#edd400|{{x-sense-on?#d3d7cf|#888a85}}}}|#eeeeec}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x50;|{{x-sense-on?&#x48;|{{x-enabled?&#x42;}}}}}}}}</font>",
       "shadow": {}
     },
     "topTankers": {
