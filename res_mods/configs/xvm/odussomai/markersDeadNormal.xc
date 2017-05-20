@@ -22,7 +22,7 @@
       // Font options.
       // Параметры шрифта.
       "textFormat": {
-        "font": "$FieldFont",           // Font name      / Название
+        "font": "Tahoma",           // Font name      / Название
         "size": 18,                     // Font size      / Размер
         // Color (dynamic colors allowed, see macros.txt).
         // Цвет (допускается использование динамического цвета, см. macros.txt)

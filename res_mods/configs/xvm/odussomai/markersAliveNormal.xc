@@ -22,7 +22,7 @@
       // Font options.
       // Параметры шрифта.
       "textFormat": {
-        "font": "$FieldFont",           // Font name      / Название
+        "font": "Tahoma",           // Font name      / Название
         "size": 18,                     // Font size      / Размер
         // Color (dynamic colors allowed, see macros.txt).
         // Цвет (допускается использование динамического цвета, см. macros.txt)
@@ -66,7 +66,7 @@
       "alpha": 100,
       "align": "center",
       "textFormat": {
-        "font": "$FieldFont",
+        "font": "Tahoma",
         "size": 13,
         "color": null,
         "bold": false,
@@ -95,7 +95,7 @@
       // Font options.
       // Параметры шрифта.
       "textFormat": {
-        "font": "$FieldFont",         //   название
+        "font": "Tahoma",         //   название
         "size": 13,                   //   размер
         "color": null,                //   цвет (допускается использование динамического цвета, см. macros.txt)
         "bold": false,                //   обычный (false) или жирный (true)
@@ -126,7 +126,7 @@
       "alpha": 100,
       "align": "center",
       "textFormat": {
-        "font": "$FieldFont",
+        "font": "Tahoma",
         "size": 11,
         "color": "0xD9D9D9",
         "bold": true,
@@ -213,7 +213,7 @@
       "alpha": 100,                   //  прозрачность (допускается использование динамической прозрачности, см. macros.txt)
       "align": "center",              //  выравнивание текста (left, center, right)
       "textFormat": {                 //  параметры шрифта
-        "font": "$FieldFont",         //  название
+        "font": "Tahoma",         //  название
         "size": 13,                   //  размер
         "color": "0xEDEDED",          //  цвет (допускается использование динамического цвета, см. macros.txt)
         "bold": false,                //  обычный (false) или жирный (true)
