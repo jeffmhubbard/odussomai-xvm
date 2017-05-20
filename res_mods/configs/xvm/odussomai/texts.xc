@@ -30,13 +30,13 @@
     // Текст для макроса {{spotted}}
     "spotted": {
       "neverSeen": "",
-      "lost": "<font face='xvm' size='24'>&#x70;</font>",
-      "spotted": "<font face='xvm' size='24'>&#x70;</font>",
-      "dead": "",
+      "lost": "<font face='xvm' size='20'>&#x42;</font>",
+      "spotted": "<font face='xvm' size='20'>&#x50;</font>",
+      "dead": "<font face='xvm' size='20'>&#x76;</font>",
       "neverSeen_arty": "",
-      "lost_arty": "<font face='xvm' size='24'>&#x70;</font>",
-      "spotted_arty": "<font face='xvm' size='24'>&#x70;</font>",
-      "dead_arty": ""
+      "lost_arty": "<font face='xvm' size='20'>&#x42;</font>",
+      "spotted_arty": "<font face='xvm' size='20'>&#x50;</font>",
+      "dead_arty": "<font face='xvm' size='20'>&#x76;</font>"
     },
     // Text for {{xvm-user}} macro.
     // Текст для макроса {{xvm-user}}

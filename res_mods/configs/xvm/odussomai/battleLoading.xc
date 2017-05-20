@@ -79,10 +79,10 @@
     "darkenNotReadyIcon": true,
     // Display format for the left panel (macros allowed, see macros.txt).
     // Формат отображения для левой панели (допускаются макроподстановки, см. macros.txt).
-    "formatLeftNick": "<img src='xvm://res/icons/flags/{{flag|default}}.png' width='16' height='13' vspace='-2'> <img src='xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png'> {{name%.15s~..}} <font alpha='#A0'>{{clan}}</font>",
+    "formatLeftNick": "<img src='xvm://res/icons/flags/{{flag|default}}.png' width='16' height='13'> <img src='xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png'> <font face='Tahoma'>{{name%.15s~..}} <font alpha='#A0'>{{clan}}</font></font>",
     // Display format for the right panel (macros allowed, see macros.txt).
     // Формат отображения для правой панели (допускаются макроподстановки, см. macros.txt).
-    "formatRightNick": "{{name%.15s~..}} <font alpha='#A0'>{{clan}}</font> <img src='xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png'> <img src='xvm://res/icons/flags/{{flag|default}}.png' width='16' height='13' vspace='-2'>",
+    "formatRightNick": "<font face='Tahoma'>{{name%.15s~..}} <font alpha='#A0'>{{clan}}</font></font> <img src='xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png'> <img src='xvm://res/icons/flags/{{flag|default}}.png' width='16' height='13'>",
     // Display format for the left panel (macros allowed, see macros.txt).
     // Формат отображения для левой панели (допускаются макроподстановки, см. macros.txt).
     "formatLeftVehicle": "<font face='Tahoma' size='{{xvm-stat?13|0}}'> <font color='{{c:kb}}'>{{kb%2d~k|--k}}</font> <font color='{{c:r}}'>{{r}}</font> <font color='{{c:winrate}}'>{{winrate%2d~%|--%}}</font></font>",
