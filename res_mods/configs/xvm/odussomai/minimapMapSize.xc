@@ -11,7 +11,7 @@
     "y": 0,
     "alpha": 70,
     "textFormat": {
-      "font": "Arial",
+      "font": "Tahoma",
       "size": 8,
       "color": "0xEEEEEC",
       "align": "left",

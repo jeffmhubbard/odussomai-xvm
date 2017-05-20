@@ -57,10 +57,10 @@
       // true - show server names in list
       // true - показывать названия серверов в списке
       "showServerName": true,
-      // expand server names to this amount of symbols. recommended to use Arialspace font if this option is set.
+      // expand server names to this amount of symbols. recommended to use Tahomaspace font if this option is set.
       // расширить названия серверов до данного количества символов. рекомендуется использовать моноширинный шрифт если данная опция задана.
       "minimalNameLength": 4,
-      // expand values to this amount of symbols. recommended to use Arialspace font if this option is set.
+      // expand values to this amount of symbols. recommended to use Tahomaspace font if this option is set.
       // расширить значения до данного количества символов. рекомендуется использовать моноширинный шрифт если данная опция задана.
       "minimalValueLength": 0,
       // text to show in case of error
@@ -155,10 +155,10 @@
       // true - show server names in list
       // true - показывать названия серверов в списке
       "showServerName": true,
-      // expand server names to this amount of symbols. recommended to use Arialspace font if this option is set.
+      // expand server names to this amount of symbols. recommended to use Tahomaspace font if this option is set.
       // расширить названия серверов до данного количества символов. рекомендуется использовать моноширинный шрифт если данная опция задана.
       "minimalNameLength": 4,
-      // expand values to this amount of symbols. recommended to use Arialspace font if this option is set.
+      // expand values to this amount of symbols. recommended to use Tahomaspace font if this option is set.
       // расширить значения до данного количества символов. рекомендуется использовать моноширинный шрифт если данная опция задана.
       "minimalValueLength": 0,
       // text to show in case of error

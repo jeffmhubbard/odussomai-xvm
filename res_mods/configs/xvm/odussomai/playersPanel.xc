@@ -545,8 +545,8 @@
       "vehicleWidth": 16,
       // Display format for vehicle name (macros allowed, see macros.txt).
       // Формат отображения названия танка (допускаются макроподстановки, см. macros.txt).
-      // "vehicleFormatLeft": "<font face='Arial' size='{{xvm-stat?13|0}}' color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{r|--}}</font>",
-      // "vehicleFormatRight": "<font face='Arial' size='{{xvm-stat?13|0}}' color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{r|--}}</font>",
+      // "vehicleFormatLeft": "<font face='Tahoma' size='{{xvm-stat?13|0}}' color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{r|--}}</font>",
+      // "vehicleFormatRight": "<font face='Tahoma' size='{{xvm-stat?13|0}}' color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{r|--}}</font>",
       "vehicleFormatLeft": "<font face='xvm'><font color='{{c:kb|#888a85}}' alpha='{{alive?#FF|#80}}'>ĕ</font><font color='{{c:r|#888a85}}' alpha='{{alive?#FF|#80}}'>ĕ</font><font color='{{c:winrate|#888a85}}' alpha='{{alive?#FF|#80}}'>ĕ</font></font>",
       "vehicleFormatRight": "<font face='xvm'><font color='{{c:kb|#888a85}}' alpha='{{alive?#FF|#80}}'>ĕ</font><font color='{{c:r|#888a85}}' alpha='{{alive?#FF|#80}}'>ĕ</font><font color='{{c:winrate|#888a85}}' alpha='{{alive?#FF|#80}}'>ĕ</font></font>",
       // Shadow for vehicle name field (default null = no shadow, as in vanillas client).
