@@ -16,7 +16,7 @@
         "font": "xvm",
         "size": 24
       },
-      "format": "<font color='{{alive?{{x-spotted?#edd400|{{x-sense-on?#d3d7cf|#888a85}}}}|#eeeeec}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x70;|{{x-sense-on?&#x70;|{{x-enabled?&#x7A;}}}}}}}}</font>",
+      "format": "<font color='{{alive?{{x-spotted?#edd400|{{x-sense-on?#d3d7cf|#888a85}}}}|#eeeeec}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x45;|{{x-sense-on?&#x43;|{{x-enabled?&#x49;}}}}}}}}</font>",
       "shadow": {}
     },
     "topTankers": {
