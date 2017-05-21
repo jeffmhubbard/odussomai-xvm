@@ -2,25 +2,13 @@
 {
   "def": {
     "enemySpottedMarker": {
-      "alpha": "{{a:spotted}}",
-      "x": 88,
-      "y": -2,
-      "align": "center",
-      "bindToIcon": true,
-      // "textFormat": {
-      //   "font": "xvm",
-      //   "size": 24
-      // },
-      "format": "<font face='xvm' size='18' color='{{c:spotted}}'>{{spotted}}</font>&nbsp;&nbsp;",
+      "alpha": "{{a:spotted}}", "x": 88, "y": -2, "align": "center", "bindToIcon": true,
+      "format": "<font face='xvm' size='18' color='{{c:spotted}}'>{{spotted}}</font>&nbsp;",
       "shadow": {}
     },
     "xmqpServiceMarker": {
-      "x": 88, "y": -2, "align": "center", "bindToIcon": true,
-      // "textFormat": {
-      //   "font": "xvm",
-      //   "size": 24
-      // },
-      "format": "&nbsp;&nbsp;<font face='xvm' size='18' color='{{alive?{{x-spotted?#edd400|{{x-sense-on?#d3d7cf|#888a85}}}}|#eeeeec}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x50;|{{x-sense-on?&#x48;|{{x-enabled?&#x42;}}}}}}}}</font>",
+      "alpha": "{{a:spotted}}", "x": 88, "y": -2, "align": "center", "bindToIcon": true,
+      "format": "&nbsp;<font face='xvm' size='18' color='{{alive?{{x-spotted?#FFBB00|{{x-sense-on?#D9D9D9|#BFBFBF}}}}|#FFFFFF}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x50;|{{x-sense-on?&#x42;}}}}}}</font>",
       "shadow": {}
     },
     "topTankers": {
@@ -52,7 +40,7 @@
     "alpha": 80,
     "iconAlpha": 100,
     "removeSelectedBackground": true,
-    "removePanelsModeSwitcher": false,
+    "removePanelsModeSwitcher": true,
     "startMode": "medium2",
     "altMode": [ "medium", "large" ],
     "none": {
