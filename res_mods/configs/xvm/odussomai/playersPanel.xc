@@ -6,12 +6,14 @@
       "format": "<font face='xvm' size='18' color='{{c:spotted}}'>{{spotted}}</font>&nbsp;",
       "shadow": {}
     },
+
     "xmqpServiceMarker": {
       "alpha": "{{a:spotted}}", "x": 88, "y": -2, "align": "center", "bindToIcon": true,
-      "format": "&nbsp;<font face='xvm' size='18' color='{{alive?{{x-spotted?#FFBB00|{{x-sense-on?#D9D9D9|#BFBFBF}}}}|#FFFFFF}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x50;|{{x-sense-on?&#x42;}}}}}}</font>",
+      "format": "&nbsp;<font face='xvm' size='18' color='{{alive?{{x-spotted?#FFBB00|{{x-sense-on?#D9D9D9|#BFBFBF}}}}|#FFFFFF}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x70;|{{x-sense-on?&#x70;|{{x-enabled?&#x7A;}}}}}}}}</font>",
       "shadow": {}
     },
     "topTankers": {
+      "enabled": false,
       "x": 77, "y": 6, "width": 16, "height": 16, "align": "center", "bindToIcon": true,
       "src": "{{top_tankers_emblem}}"
     },
@@ -103,22 +105,22 @@
       "vehicleShadowRight": null,
       "fixedPosition": false,
       "extraFieldsLeft": [
-        // ${"def.topTankers"},
-        // ${"def.clanIcon"},
+        ${"def.topTankers"},
+        ${"def.clanIcon"},
         ${"def.xvmUserMarker"},
+        ${"def.xmqpServiceMarker"}
         // ${"def.hpBarBg"},
         // ${"def.hpBar"},
         // ${"def.hp"},
-        ${"def.xmqpServiceMarker"}
       ],
       "extraFieldsRight": [
-        // ${"def.topTankers"},
-        // ${"def.clanIcon"},
+        ${"def.topTankers"},
+        ${"def.clanIcon"},
         ${"def.xvmUserMarker"},
+        ${"def.enemySpottedMarker"}
         // ${"def.hpBarBg"},
         // ${"def.hpBar"},
         // ${"def.hp"},
-        ${"def.enemySpottedMarker"}
       ]
     },
     "medium": {
@@ -156,15 +158,15 @@
       "vehicleShadowRight": null,
       "fixedPosition": false,
       "extraFieldsLeft": [
-        // ${"def.clanIcon"},
+        ${"def.topTankers"},
+        ${"def.clanIcon"},
         ${"def.xvmUserMarker"},
-        // ${"def.topTankers"}
         ${"def.xmqpServiceMarker"}
       ],
       "extraFieldsRight": [
-        // ${"def.clanIcon"},
+        ${"def.topTankers"},
+        ${"def.clanIcon"},
         ${"def.xvmUserMarker"},
-        // ${"def.topTankers"}
         ${"def.enemySpottedMarker"}
       ]
     },
@@ -203,15 +205,15 @@
       "vehicleShadowRight": null,
       "fixedPosition": false,
       "extraFieldsLeft": [
-        // ${"def.clanIcon"},
-        ${"def.xvmUserMarker"},
-        // ${"def.topTankers"}
-        ${"def.xmqpServiceMarker"}
+        ${"def.topTankers"},
+        ${"def.clanIcon"},
+        ${"def.xmqpServiceMarker"},
+        ${"def.xvmUserMarker"}
       ],
       "extraFieldsRight": [
-        // ${"def.clanIcon"},
+        ${"def.topTankers"},
+        ${"def.clanIcon"},
         ${"def.xvmUserMarker"},
-        // ${"def.topTankers"}
         ${"def.enemySpottedMarker"}
       ]
     },
@@ -243,23 +245,21 @@
       "vehicleXOffsetLeft": 0,
       "vehicleXOffsetRight": 0,
       "vehicleWidth": 16,
-      // "vehicleFormatLeft": "<font face='Tahoma' size='{{xvm-stat?13|0}}' color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{r|--}}</font>",
-      // "vehicleFormatRight": "<font face='Tahoma' size='{{xvm-stat?13|0}}' color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{r|--}}</font>",
       "vehicleFormatLeft": "<font face='xvm'><font color='{{c:kb|#888a85}}' alpha='{{alive?#FF|#80}}'>ĕ</font><font color='{{c:r|#888a85}}' alpha='{{alive?#FF|#80}}'>ĕ</font><font color='{{c:winrate|#888a85}}' alpha='{{alive?#FF|#80}}'>ĕ</font></font>",
       "vehicleFormatRight": "<font face='xvm'><font color='{{c:kb|#888a85}}' alpha='{{alive?#FF|#80}}'>ĕ</font><font color='{{c:r|#888a85}}' alpha='{{alive?#FF|#80}}'>ĕ</font><font color='{{c:winrate|#888a85}}' alpha='{{alive?#FF|#80}}'>ĕ</font></font>",
       "vehicleShadowLeft": null,
       "vehicleShadowRight": null,
       "fixedPosition": false,
       "extraFieldsLeft": [
-        // ${"def.clanIcon"},
+        ${"def.topTankers"},
+        ${"def.clanIcon"},
         ${"def.xvmUserMarker"},
-        // ${"def.topTankers"}
         ${"def.xmqpServiceMarker"}
       ],
       "extraFieldsRight": [
-        // ${"def.clanIcon"},
+        ${"def.topTankers"},
+        ${"def.clanIcon"},
         ${"def.xvmUserMarker"},
-        // ${"def.topTankers"}
         ${"def.enemySpottedMarker"}
       ]
     }
