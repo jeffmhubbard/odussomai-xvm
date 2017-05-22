@@ -16,12 +16,12 @@
     },
     "spotted": {
       "neverSeen": "",
-      "lost": "&#x42;",
-      "spotted": "&#x50;",
+      "lost": "&#x70;",
+      "spotted": "&#x70;",
       "dead": "",
       "neverSeen_arty": "",
-      "lost_arty": "&#x42;",
-      "spotted_arty": "&#x50;",
+      "lost_arty": "&#x70;",
+      "spotted_arty": "&#x70;",
       "dead_arty": ""
     },
     "xvmuser": {
