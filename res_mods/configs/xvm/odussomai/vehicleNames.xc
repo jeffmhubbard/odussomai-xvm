@@ -1,10 +1,5 @@
-﻿/**
- * Vehicle names mapping. null value for standard name.
- * Замена названий танков. Значение null - использовать стандартное название.
- */
-{
+﻿{
   "vehicleNames": {
-    // Last update: 19.04.2017
     "china-Ch01_Type59":                     {"name": null, "short": null},
     "china-Ch01_Type59_Gold":                {"name": null, "short": null},
     "china-Ch02_Type62":                     {"name": null, "short": null},
@@ -610,13 +605,5 @@
     "ussr-R98_T44_85":                       {"name": null, "short": null},
     "ussr-R98_T44_85M":                      {"name": null, "short": null},
     "ussr-R99_T44_122":                      {"name": null, "short": null}
-    /** Unused
-    "china-Ch04_T34_1_training":             {"name": null, "short": null},
-    "germany-G03_PzV_Panther_training":      {"name": null, "short": null},
-    "germany-G10_PzIII_AusfJ_training":      {"name": null, "short": null},
-    "germany-G16_PzVIB_Tiger_II_training":   {"name": null, "short": null},
-    "usa-A06_M4A3E8_Sherman_training":       {"name": null, "short": null},
-    "ussr-R07_T-34-85_training":             {"name": null, "short": null},
-    */
   }
 }

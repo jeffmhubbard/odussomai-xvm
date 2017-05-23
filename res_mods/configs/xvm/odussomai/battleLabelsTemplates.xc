@@ -1,10 +1,4 @@
-﻿/**
- * Battle inteface text fields.
- * Текстовые поля боевого интерфейса.
- */
-{
-  // Definitions.
-  // Шаблоны.
+﻿{
   "def": {
     "hitlogHeader": {
       "enabled": false,
@@ -15,9 +9,6 @@
       "height": 1000,
       "textFormat": { "color": "0xF4EFE8", "size": 15 },
       "format": "{{hitlog-header}}"
-      // Format of the full hitlog (header and body)
-      // Формат полного хит-лога (шапка и тело)
-      // "format": "{{hitlog-header}}\n{{hitlog-body}}"
     },
     "hitlogBody": {
       "enabled": false,
@@ -30,8 +21,6 @@
       "textFormat": { "color": "0xF4EFE8", "size": 15 },
       "format": "{{hitlog-body}}"
     },
-    // Total hp indicator.
-    // Индикатор общего HP команд.
     "totalHP": {
       "enabled": false,
       "updateEvent": "PY(ON_UPDATE_HP)",
@@ -43,8 +32,6 @@
       "textFormat": { "font": "Tahoma", "size": 18, "align": "center" },
       "format": "{{py:xvm.total_hp.text}}"
     },
-    // Avg damage on current vehicle.
-    // Средний урон на текущей технике.
     "avgDamage": {
       "enabled": false,
       "updateEvent": "PY(ON_UPDATE_HP)",
@@ -56,8 +43,6 @@
       "textFormat": { "size": 15, "align": "center" },
       "format": "{{py:xvm.total_hp.avgDamage('{{l10n:avgDamage}}: ',{{hitlog.dmg-total}})}}"
     },
-    // Threshold necessary for achievements "High caliber".
-    // Порог необходимый для получения достижения "Основной калибр".
     "mainGun": {
       "enabled": false,
       "updateEvent": "PY(ON_UPDATE_HP)",
@@ -68,8 +53,6 @@
       "textFormat": { "size": 15, "align": "center" },
       "format": "{{py:xvm.total_hp.mainGun('{{l10n:mainGun}}: ',{{hitlog.dmg-total}})}}"
     },
-    // Chance of winning.
-    // Шанс на победу.
     "winChance": {
       "enabled": false,
       "updateEvent": "ON_VEHICLE_DESTROYED",
@@ -79,8 +62,6 @@
       "textFormat": { "size": 15 },
       "format": "{{xvm-stat?{{l10n:Team strength}}: {{py:xvm.team_strength('{{allyStrengthStatic}}','{{enemyStrengthStatic}}')}} / {{py:xvm.team_strength('{{allyStrengthLive}}','{{enemyStrengthLive}}')}}}}"
     },
-    // Log of the received damage (see damageLog.xc).
-    // Лог полученного урона (см. damageLog.xc).
     "damageLog": {
       "enabled": false,
       "updateEvent": "PY(ON_HIT)",
@@ -110,15 +91,11 @@
         "mouseMove": "dLog_mouseMove"
       }
     },
-    //TODO (see damageLog.xc).
-    // Подложка лога полученного урона (см. damageLog.xc).
     "damageLogBackground": {
       "enabled": false,
       "$ref": { "path":"def.damageLog" },
       "format": "{{py:xvm.damageLog.dLogBackground}}"
     },
-    // Display the last damage (hit) (see damageLog.xc).
-    // Отображение последнего урона (попадания) (см. damageLog.xc).
     "lastHit": {
       "enabled": false,
       "updateEvent": "PY(ON_LAST_HIT)",
@@ -174,8 +151,6 @@
       "textFormat": { "size": 16 },
       "format": "<textformat tabstops='[65,130,196,261]' leading='-2' ><img src='xvm://res/icons/Efficiency/damage.png' vspace='-2'> <font color='{{py:xvm.totalDamage>0?{{py:xvm.totalDamageColor}}}}'>{{py:xvm.totalDamage}}</font><tab><img src='xvm://res/icons/Efficiency/assist.png' vspace='-2'> {{py:xvm.totalAssist}}<tab><img src='xvm://res/icons/Efficiency/reflect.png' vspace='-2'> {{py:xvm.totalBlocked}}<tab><img src='xvm://res/icons/Efficiency/discover.png' vspace='-2'> {{py:xvm.detection}}<tab><img src='xvm://res/icons/Efficiency/stun.png' vspace='-2'> {{py:xvm.totalStun}}</textformat>"
     },
-    // Rewritable timer format
-    // Перезаписываемый формат таймера
     "repairTimeItem": {
       "width": 47,
       "height": 40,
@@ -184,8 +159,6 @@
       "shadow": { "distance": 1, "angle": 90, "alpha": 90, "blur": 5, "strength": 4 },
       "textFormat": { "color": "0xF4EFE8", "size": 17, "align": "center", "valign": "center" }
     },
-    // Repair timer for engine
-    // Таймер ремонта двигателя
     "repairTimeEngine": {
       "$ref": { "path":"def.repairTimeItem" },
       "enabled": true,
@@ -194,8 +167,6 @@
       "y": -147,
       "format": "<b>{{py:repairTimeEngine%0.1f}}</b>"
     },
-    // Repair timer for gun
-    // Таймер ремонта орудия
     "repairTimeGun": {
       "$ref": { "path":"def.repairTimeItem" },
       "enabled": true,
@@ -204,8 +175,6 @@
       "y": -69,
       "format": "<b>{{py:repairTimeGun%0.1f}}</b>"
     },
-    // Repair timer for turret rotator
-    // Таймер ремонта механизма поворота башни
     "repairTimeTurret": {
       "$ref": { "path":"def.repairTimeItem" },
       "enabled": true,
@@ -214,8 +183,6 @@
       "y": -30,
       "format": "<b>{{py:repairTimeTurret%0.1f}}</b>"
     },
-    // Repair timer for tracks
-    // Таймер ремонта сбитых гусениц
     "repairTimeTracks": {
       "$ref": { "path":"def.repairTimeItem" },
       "enabled": true,
@@ -224,8 +191,6 @@
       "y": -147,
       "format": "<b>{{py:repairTimeTracks%0.1f}}</b>"
     },
-    // Repair timer for surveying device
-    // Таймер ремонта приборов наблюдения
     "repairTimeSurveying": {
       "$ref": { "path":"def.repairTimeItem" },
       "enabled": true,
@@ -234,8 +199,6 @@
       "y": -108,
       "format": "<b>{{py:repairTimeSurveying%0.1f}}</b>"
     },
-    // Repair timer for radio
-    // Таймер ремонта радиостанции
     "repairTimeRadio": {
       "$ref": { "path":"def.repairTimeItem" },
       "enabled": true,
