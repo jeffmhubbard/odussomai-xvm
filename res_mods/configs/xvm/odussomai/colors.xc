@@ -1,7 +1,3 @@
-/**
- * Based on:
- * WoTLabs Version for WN8 and Win Rate
- */
 {
   "def": {
     "al": "0x8ae234",
@@ -39,17 +35,17 @@
   "colors": {
     "system": {
       "ally_alive":          ${"def.al"},
-      "ally_dead":           "0x009900",
-      "ally_blowedup":       "0x007700",
+      "ally_dead":           "0x73d216",
+      "ally_blowedup":       "0x4e9a06",
       "squadman_alive":      ${"def.sq"},
-      "squadman_dead":       "0xCA7000",
-      "squadman_blowedup":   "0xA45A00",
+      "squadman_dead":       "0xc17d11",
+      "squadman_blowedup":   "0x8f5902",
       "teamKiller_alive":    ${"def.tk"},
-      "teamKiller_dead":     "0x097783",
-      "teamKiller_blowedup": "0x096A75",
+      "teamKiller_dead":     "0x19b3b3",
+      "teamKiller_blowedup": "0x07c7ca",
       "enemy_alive":         ${"def.en"},
-      "enemy_dead":          "0x840500",
-      "enemy_blowedup":      "0x5A0401"
+      "enemy_dead":          "0xcc0000",
+      "enemy_blowedup":      "0xa40000"
     },
     "dmg_kind": {
       "attack": "0xe9b96e",
@@ -59,9 +55,9 @@
       "other": "0x888a85"
     },
     "vtype": {
-      "LT":  "0xA2FF9A",
+      "LT":  "0xedd400",
       "MT":  "0x73d216",
-      "HT":  "0x555753",
+      "HT":  "0x888a85",
       "SPG": "0xcc0000",
       "TD":  "0x3465a4",
       "premium": "0xedd400",
