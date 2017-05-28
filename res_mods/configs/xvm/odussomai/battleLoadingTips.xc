@@ -30,8 +30,8 @@
     "darkenNotReadyIcon": true,
     "formatLeftNick": "<img src='xvm://res/icons/flags/{{flag|default}}.png' width='16' height='13'> <img src='xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png'> <font face='Tahoma' size='12'>{{name%.15s~..}} <font alpha='#A0'>{{clan}}</font></font>",
     "formatRightNick": "<font face='Tahoma' size='12'>{{name%.15s~..}} <font alpha='#A0'>{{clan}}</font></font> <img src='xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png'> <img src='xvm://res/icons/flags/{{flag|default}}.png' width='16' height='13'>",
-    "formatLeftVehicle": "<font face='Tahoma' size='12'> <font color='{{c:r}}'>{{r}}</font></font>",
-    "formatRightVehicle": "<font face='Tahoma' size='12'><font color='{{c:r}}'>{{r}}</font> </font>",
+    "formatLeftVehicle": "<font face='Tahoma' size='12'> <font color='{{c:kb}}'>{{kb%2d~k|--k}}</font> <font color='{{c:r}}'>{{r}}</font> <font color='{{c:winrate}}'>{{winrate%2d~%|--%}}</font></font>",
+    "formatRightVehicle": "<font face='Tahoma' size='12'> <font color='{{c:kb}}'>{{kb%2d~k|--k}}</font> <font color='{{c:r}}'>{{r}}</font> <font color='{{c:winrate}}'>{{winrate%2d~%|--%}}</font></font>",
     "extraFieldsLeft": [
       ${"templates.clanIcon"}
     ],
