@@ -7,9 +7,9 @@
     "author": "odussomai",
     "description": "My XVM settings",
     "url": "https://github.com/jeffmhubbard/odussomai-xvm",
-    "date": "13.05.2017",
-    "gameVersion": "0.9.18.0",
-    "modMinVersion": "6.6.5"
+    "date": "02.06.2017",
+    "gameVersion": "0.9.19.0.1",
+    "modMinVersion": "6.7.2"
   },
   "login": ${"login.xc":"login"},
   "hangar": ${"hangar.xc":"hangar"},
